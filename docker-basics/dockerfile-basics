@@ -1,0 +1,2 @@
+docker provides a set of standard instructions to be used in the docker file 
+FROM: Every Dockerfile must start with the FROM instruction. 
