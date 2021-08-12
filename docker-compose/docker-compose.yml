@@ -12,6 +12,8 @@ services:
        container_name: utils
        networks: 
          - network1
-         - network2  
-
-    
+         - network2
+networks: 
+  network1:
+  network2:
+  network2:
