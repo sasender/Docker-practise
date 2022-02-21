@@ -1,0 +1,19 @@
+version: '3'
+services: 
+    test1:
+      image: sreeharshav/rollingupdate:v3
+      container_name: nginx
+      ports: ["8000"]
+      networks: 
+      - network1
+      - network2
+    test2:
+       image: sreeharshav/utils
+       container_name: utils
+       networks: 
+         - network1
+         - network2
+networks: 
+  network1:
+  network2:
+  network2:
